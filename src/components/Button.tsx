@@ -1,14 +1,14 @@
-import { COLORS } from '@/constants/COLORS';
 import React from 'react';
 import {
-  ActivityIndicator,
   Pressable,
-  StyleSheet,
   Text,
+  StyleSheet,
+  ActivityIndicator,
+  ViewStyle,
   TextStyle,
   View,
-  ViewStyle,
 } from 'react-native';
+import { COLORS } from '@/constants/COLORS';
 
 export type ButtonVariant = 'primary' | 'secondary' | 'outline' | 'danger' | 'ghost';
 export type ButtonSize = 'sm' | 'md' | 'lg';
